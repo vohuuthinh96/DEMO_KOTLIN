@@ -17,11 +17,16 @@ class MainActivity : AppCompatActivity() {
         var st = Student("thinh");
         Log.d(TAG, st.name)
 
+
         var dog = Dog("tom",12)
         Log.d(TAG, dog.name)
 
         var cat = CAT()
         cat.name="vu";
+
+        var cat2 =CAT().let { it.name }
+
+
 
 
 //        textview
