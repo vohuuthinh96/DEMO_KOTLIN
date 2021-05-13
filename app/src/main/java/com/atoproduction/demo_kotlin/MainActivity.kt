@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         // https://play.kotlinlang.org/byExample/02_control_flow/03_Ranges
+
         val empty = "test".let {
             // trả về value
             println(it)                    // 2

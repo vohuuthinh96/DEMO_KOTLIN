@@ -11,7 +11,12 @@ package com.atoproduction.demo_kotlin
  * Skype      : https://join.skype.com/invite/fvfRTDLcGPJN
  * Mail       : thinhvhph04204@gmail.com
  */
-class Person(val name: String) {
-    val likedPeople = mutableListOf<Person>()
-    infix fun likes(other: Person) { likedPeople.add(other) }  // 6
+class Person() {
+    var name: String = "";
+    var age: Int = 0;
+    var about: String = ""
+    infix fun address(address: String) {}  // 6
+    fun hello() {
+
+    }
 }
